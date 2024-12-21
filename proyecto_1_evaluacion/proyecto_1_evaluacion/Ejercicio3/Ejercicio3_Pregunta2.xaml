@@ -1,0 +1,46 @@
+﻿<Page x:Class="proyecto_1_evaluacion.Ejercicio3.Ejercicio3_Pregunta2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:proyecto_1_evaluacion.Ejercicio3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Ejercicio3_Pregunta2">
+
+    <Grid HorizontalAlignment="Center" Width="600" Height="350"  Background="Transparent">
+        <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\pizarra.png"
+            Stretch="Fill" 
+            HorizontalAlignment="Left" />
+        <Grid>
+            <!-- Sección de palabras -->
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="100,0">
+                <TextBlock Style="{StaticResource EnunciadoTextStyle}" Text="Bear" Name="BearDropTarget"
+                           AllowDrop="True" Drop="Bear_Drop" DragEnter="DragEnter" DragLeave="DragLeave"
+                           Background="Transparent" Width="100" Height="50" TextAlignment="Center" />
+                <TextBlock Style="{StaticResource EnunciadoTextStyle}" Text="Deer" Name="DeerDropTarget"
+                           AllowDrop="True" Drop="Deer_Drop" DragEnter="DragEnter" DragLeave="DragLeave"
+                           Background="Transparent" Width="100" Height="50" Margin="0,10,0,0" TextAlignment="Center" />
+                
+            </StackPanel>
+
+            <!-- Sección de imágenes -->
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Right" Margin="100,0">
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\oso.png"
+                       Width="100" Height="100" Name="BearImage" MouseMove="Image_MouseMove"
+                       Margin="0,0,0,10" />
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\ciervo.png"
+                       Width="100" Height="100" Name="DeerImage" MouseMove="Image_MouseMove"/>
+                
+            </StackPanel>
+            <Button Style="{StaticResource ConfirmButtonStyle}" Content="Next question" Margin="0,30" Width="180"
+                    Click="ConfirmarRespuesta_Click" VerticalAlignment="Bottom"/>
+            <Grid x:Name="gridBloqueo" Background="#80000000" Visibility="Collapsed" MouseDown="GridBloqueo_MouseDown">
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\RespuestaCorrectaCartel.png"
+                    Visibility="Collapsed" Width="200" Name="RespuestaCorrecta"/>
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\RespuestaFallidaCartel.png"
+                    Visibility="Collapsed" Width="200" Name="RespuestaIncorrecta"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

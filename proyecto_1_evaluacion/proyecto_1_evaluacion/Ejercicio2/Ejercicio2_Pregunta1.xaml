@@ -1,0 +1,61 @@
+﻿<Page x:Class="proyecto_1_evaluacion.Ejercicio2.Ejercicio2_Pregunta1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:proyecto_1_evaluacion.Ejercicio2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Ejercicio2_Pregunta1">
+
+    <Grid HorizontalAlignment="Center" Width="600" Height="350"  Background="Transparent">
+        <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\pizarra.png"
+        Stretch="Fill" 
+        HorizontalAlignment="Left" />
+        <Grid>
+            <!-- Imagen de la pregunta -->
+            <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\Erizo.png" 
+           HorizontalAlignment="Right" 
+           VerticalAlignment="Top" 
+           Margin="0,20,0,0" />
+
+            <!-- Contenedor de respuestas -->
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{StaticResource EnunciadoTextStyle}">The</TextBlock>
+                    <ComboBox Name="ComboBox1Pregunta3" Width="100" Margin="10,0" FontSize="14"
+                              HorizontalContentAlignment="Center" 
+                              VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Cat"/>
+                        <ComboBoxItem Content="Dog"/>
+                        <ComboBoxItem Content="Beaver"/>
+                        <ComboBoxItem Content="Hedgehog"/>
+                    </ComboBox>
+                    <TextBlock Style="{StaticResource EnunciadoTextStyle}">is</TextBlock>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{StaticResource EnunciadoTextStyle}"> drinking</TextBlock>
+                    <ComboBox Name="ComboBox2Pregunta3" Width="100" Margin="10,0"
+                              HorizontalContentAlignment="Center" 
+                              VerticalContentAlignment="Center" FontSize="14">
+                        <ComboBoxItem Content="Beer" />
+                        <ComboBoxItem Content="Coffee" />
+                        <ComboBoxItem Content="Milk" />
+                        <ComboBoxItem Content="Water" />
+                    </ComboBox>
+                </StackPanel>
+
+                <Button Style="{StaticResource ConfirmButtonStyle}" Content="Siguiente Pregunta" Margin="0,5" Width="180"
+                    Click="ConfirmarRespuesta_Click"></Button>
+            </StackPanel>
+            <Grid x:Name="gridBloqueo" Background="#80000000" Visibility="Collapsed" MouseDown="GridBloqueo_MouseDown">
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\RespuestaCorrectaCartel.png"
+                    Visibility="Collapsed" Width="200" Name="RespuestaCorrecta"/>
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\RespuestaFallidaCartel.png"
+                    Visibility="Collapsed" Width="200" Name="RespuestaIncorrecta"/>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,588 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\puntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\puntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio1\\ejercicio1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio1\\ejercicio1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\pantalla_celebracion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\pantalla_celebracion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio3\\ejercicio3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio3\\ejercicio3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio3\\ejercicio3_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio4\\ejercicio4_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio5\\ejercicio5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio5\\ejercicio5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio4\\ejercicio4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio4\\ejercicio4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio3\\ejercicio3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio3\\ejercicio3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio2\\ejercicio2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio2\\ejercicio2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio1\\ejercicio1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio1\\ejercicio1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\pantalla_celebracion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\pantalla_celebracion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio5\\ejercicio5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio5\\ejercicio5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio2\\ejercicio2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio2\\ejercicio2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio4\\ejercicio4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio4\\ejercicio4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio1\\ejercicio1_pregunta1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio2\\ejercicio2_pregunta2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|c:\\users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80B85BE1-97B5-466D-9567-DC6563366E2E}|proyecto_1_evaluacion\\proyecto_1_evaluacion.csproj|solutionrelative:proyecto_1_evaluacion\\ejercicio5\\ejercicio5_pregunta2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Ejercicio1.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-25T16:05:41.632Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ejercicio1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:59:02.498Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\MainWindow.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-19T18:26:09.626Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\MainWindow.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAtwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:26:06.365Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Styles.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Styles.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Styles.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T17:24:47.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Puntuacion.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Puntuacion.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Puntuacion.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Puntuacion.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Puntuacion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:23:43.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ejercicio2_Pregunta1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wDgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T16:46:58.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ejercicio2_Pregunta1.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T14:56:54.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ejercicio1_Pregunta1.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T17:22:51.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ejercicio4_Pregunta1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:13:48.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pantalla_celebracion.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Pantalla_celebracion.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Pantalla_celebracion.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Pantalla_celebracion.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Pantalla_celebracion.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T18:00:39.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ejercicio3_Pregunta2.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T18:07:38.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ejercicio3_Pregunta1.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T17:51:33.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ejercicio3.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwDgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:48:17.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ejercicio2_Pregunta2.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T15:12:49.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ejercicio1_Pregunta2.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T15:29:20.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Ejercicio4_Pregunta2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwCoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:19:25.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ejercicio3_Pregunta2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta2.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwEUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:06:09.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ejercicio5_Pregunta1.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T16:25:57.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ejercicio3_Pregunta1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3_Pregunta1.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvycAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:50:08.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Ejercicio4_Pregunta1.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T15:56:30.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ejercicio4_Pregunta2.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4_Pregunta2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T15:56:48.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Ejercicio5.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T16:25:43.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Ejercicio5_Pregunta1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta1.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:31:19.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Ejercicio4.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T15:56:14.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Ejercicio3.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio3\\Ejercicio3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T17:34:11.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Ejercicio2.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T14:57:06.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Pantalla_celebracion.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Pantalla_celebracion.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Pantalla_celebracion.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Pantalla_celebracion.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Pantalla_celebracion.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvywAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:02:59.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Ejercicio5.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwDoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:26:40.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Ejercicio5_Pregunta2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:51:12.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Ejercicio4.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio4\\Ejercicio4.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:59:01.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Ejercicio2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwDgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:58:59.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Ejercicio1_Pregunta2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta2.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:17:43.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Ejercicio1_Pregunta1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio1\\Ejercicio1_Pregunta1.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:23:04.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Ejercicio2_Pregunta2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml.cs",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml.cs",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio2\\Ejercicio2_Pregunta2.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:24:53.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Ejercicio5_Pregunta2.xaml",
+              "DocumentMoniker": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml",
+              "RelativeDocumentMoniker": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml",
+              "ToolTip": "C:\\Users\\javim\\source\\repos\\proyecto_1_evaluacion\\proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml",
+              "RelativeToolTip": "proyecto_1_evaluacion\\Ejercicio5\\Ejercicio5_Pregunta2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T16:26:31.16Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+﻿<Window x:Class="proyecto_1_evaluacion.Ejercicio1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\Logo_HikeAndLearn.png"
+        ResizeMode="NoResize"
+        Title="Ejercicio1" Height="450" Width="800">
+    <Grid>
+        <!-- Imagen de fondo -->
+        <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\Ejercicio1_fondo.jpg"
+               Stretch="Fill"
+               HorizontalAlignment="Left" />
+
+        <!-- Frame de la pregunta 1 -->
+        <Frame Name="Pregunta1"
+               NavigationUIVisibility="Hidden"
+               Width="600"
+               Height="350"
+               Background="Transparent"
+               Content="{Binding Pregunta1Page}" />
+
+        <!-- Frame de la pregunta 2 -->
+        <Frame Name="Pregunta2"
+            NavigationUIVisibility="Hidden"
+            Width="600"
+            Height="350"
+            Visibility="Collapsed"
+            Background="Transparent"
+            Content="{Binding Pregunta2Page}" />
+        
+        <Grid x:Name="gridPantallaPuntuacion" Width="330" Height="180" Visibility="Hidden">
+            
+            <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\pizarra.png"
+                Stretch="UniformToFill" 
+                HorizontalAlignment="Left" />
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <!-- Texto de resumen -->
+                <TextBlock Style="{StaticResource EnunciadoTextStyle}"
+                           Text="Your score is:"/>
+                <TextBlock Style="{StaticResource EnunciadoTextStyle}" 
+                           Name="textBlockPuntuacion"
+                           HorizontalAlignment="Center" 
+                           Margin="10" />
+
+                <!-- Boton para volver a la pantalla principal -->
+                <Button Style="{StaticResource ConfirmButtonStyle}" 
+                        Content="Return Home" 
+                        Width="200" 
+                        Margin="10" 
+                        Click="VolverAPantallaPrincipal_Click"/>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="gridBloqueo" Background="#80000000" Visibility="Collapsed" MouseDown="GridBloqueo_MouseDown">
+            <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\dialogoEjercicioCorrecto_explorador.png"
+               Visibility="Hidden" Name="imagenSuperado"/>
+            <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\dialogoEjercicioMal_explorador.png"
+               Visibility="Hidden" Name="imagenFallido"/>
+        </Grid>
+    </Grid>
+</Window>

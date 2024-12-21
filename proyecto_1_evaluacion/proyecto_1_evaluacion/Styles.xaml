@@ -1,0 +1,360 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Estilo personalizado para los botones -->
+    <Style x:Key="CustomButtonStyle" TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <!-- Imagen de fondo -->
+                        <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\diseno_botones.png" 
+                             Stretch="UniformToFill" />
+                        <!-- Texto del boton -->
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\diseno_botones.png" 
+                            Stretch="UniformToFill" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Padding" Value="10" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Margin" Value="0,5" />
+        <!-- Estilo al pasar el raton -->
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground">
+                    <Setter.Value>White</Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="16" />
+                <!-- Tamano mayor del texto -->
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!-- Estilo personalizado para un boton circular transparente -->
+    <Style x:Key="CircularTransparentButtonStyle" TargetType="Button">
+        <Setter Property="Width" Value="42" />
+        <Setter Property="Height" Value="42" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <!-- Fondo circular transparente -->
+                        <Ellipse Fill="Transparent" x:Name="EllipseBackground" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Cambiar a gris claro semitransparente al pasar el raton -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="EllipseBackground" Property="Fill" Value="#80D3D3D3" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!--Estilo Boton bloqueado-->
+    <Style x:Key="CircularLockedButtonStyle" TargetType="Button">
+        <!-- Propiedades basicas -->
+        <Setter Property="Width" Value="42" />
+        <Setter Property="Height" Value="42" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Cursor" Value="Arrow" />
+        <!-- Cursor no cambia al pasar -->
+        <Setter Property="IsEnabled" Value="False" />
+        <!-- Boton deshabilitado -->
+
+        <!-- Plantilla personalizada -->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <!-- Fondo semitransparente -->
+                        <Ellipse Fill="#80D3D3D3" x:Name="EllipseBackground" />
+
+                        <!-- Imagen de candado -->
+                        <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\pngegg.png"
+                           Width="30" 
+                           Height="30" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--Estilo radioButtons respuesta-->
+    <Style x:Key="AnswerButtonStyle" TargetType="RadioButton">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid>
+                        <Image x:Name="BackgroundImage" Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\fondo_radioButton.png" Stretch="UniformToFill" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Cambiar la opacidad de la imagen al pasar el raton -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="BackgroundImage" Property="Opacity" Value="0.8" />
+                        </Trigger>
+                        <!-- Cambiar el borde al seleccionar -->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="BackgroundImage" Property="Opacity" Value="1" />
+                            <Setter Property="Effect">
+                                <Setter.Value>
+                                    <DropShadowEffect Color="Green" ShadowDepth="0" BlurRadius="10" Opacity="0.8" />
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Width" Value="150" />
+        <Setter Property="Height" Value="50" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Foreground" Value="#F5F5DC" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+
+
+    <!--Enunciado-->
+    <Style x:Key="EnunciadoTextStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="#F5F5DC" />
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="Black" 
+                              ShadowDepth="2" 
+                              Direction="320" 
+                              Opacity="0.7" 
+                              BlurRadius="4" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="TextAlignment" Value="Center" />
+    </Style>
+    
+    
+    <!--Boton de avanzar-->
+    <Style x:Key="ConfirmButtonStyle" TargetType="Button">
+        <!-- Propiedades basicas -->
+        <Setter Property="Width" Value="150" />
+        <Setter Property="Height" Value="50" />
+        <Setter Property="Background">
+            <Setter.Value>
+                <!-- Imagen de fondo -->
+                <ImageBrush ImageSource="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\bonton_avanzar.png" Stretch="UniformToFill" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#F5F5DC" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+
+        <!-- Redefinir plantilla para eliminar animaciones predeterminadas -->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <!-- Imagen de fondo -->
+                        <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\bonton_avanzar.png" Stretch="Fill" />
+                        <!-- Texto del boton -->
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Cambiar solo el tamano del texto al pasar el raton -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="FontSize" Value="18" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="TextoPregunta" TargetType="TextBlock">
+        <!-- Color del texto -->
+        <Setter Property="Foreground" Value="#F5F5DC" />
+        <!-- Tamano de la fuente -->
+        <Setter Property="FontSize" Value="18" />
+        <!-- Peso del texto -->
+        <Setter Property="FontWeight" Value="Bold" />
+        <!-- Alineacion del texto -->
+        <Setter Property="TextAlignment" Value="Center" />
+        <!-- Espaciado del texto -->
+        <Setter Property="Margin" Value="10" />
+    </Style>
+
+    <!--Estilo TextBox de preguntas-->
+    <Style x:Key="TextBoxPreguntas" TargetType="TextBox">
+        <!-- Propiedades basicas -->
+        <Setter Property="Background" Value="#30FFFFFF" />
+        <Setter Property="Foreground" Value="#F5F5DC" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Padding" Value="0" />
+
+        <!-- Plantilla personalizada -->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TextBox">
+                    <Grid>
+                        <Rectangle Fill="#30FFFFFF" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                        <!-- Texto -->
+                        <ScrollViewer x:Name="PART_ContentHost" VerticalScrollBarVisibility="Hidden" />
+                        <!-- Linea negra -->
+                        <Rectangle Height="1" Fill="Black" VerticalAlignment="Bottom" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    
+    <!--Imagen con bordes-->
+    <Style x:Key="RoundedImageStyle" TargetType="Border">
+        <Setter Property="CornerRadius" Value="10" />
+        <!-- Bordes redondeados -->
+        <Setter Property="BorderBrush" Value="Gray" />
+        <!-- Color del borde -->
+        <Setter Property="BorderThickness" Value="2" />
+        <!-- Grosor del borde -->
+        <Setter Property="Background" Value="Transparent" />
+        <!-- Fondo transparente -->
+        <Setter Property="Padding" Value="0" />
+        <!-- Sin espacio adicional -->
+        <Setter Property="ClipToBounds" Value="True" />
+        <!-- Recorta contenido a los bordes -->
+    </Style>
+
+    
+    <!--Estilos checkBox-->
+    <Style x:Key="CustomCheckBoxStyle" TargetType="CheckBox">
+        <!-- Estilo general -->
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="#F5F5DC" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Padding" Value="5" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <!-- Casilla personalizada -->
+                        <Border x:Name="CheckMarkBorder" 
+                            Width="20" Height="20"
+                            BorderThickness="2"
+                            CornerRadius="4"
+                            BorderBrush="#bd7e4d" 
+                            Background="Transparent"
+                            Margin="0,0,5,0">
+                            <Path x:Name="CheckMark" 
+                              Data="M0,6 L2,8 6,2" 
+                              Stroke="White"
+                              StrokeThickness="2"
+                              Visibility="Collapsed"
+                              VerticalAlignment="Center"
+                              HorizontalAlignment="Center" />
+                        </Border>
+                        <!-- Contenido del CheckBox -->
+                        <ContentPresenter VerticalAlignment="Center" />
+                    </StackPanel>
+                    <!-- Triggers -->
+                    <ControlTemplate.Triggers>
+                        <!-- Cuando esta seleccionado -->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="CheckMark" Property="Visibility" Value="Visible" />
+                            <Setter TargetName="CheckMarkBorder" Property="Background" Value="#bd7e4d" />
+                        </Trigger>
+                        <!-- Cuando el raton esta encima -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="CheckMarkBorder" Property="BorderBrush" Value="#a5694c" />
+                            <Setter TargetName="CheckMarkBorder" Property="Background" Value="#f4a261" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    
+    <!--Slider-->
+    <Style x:Key="CustomSliderStyle" TargetType="Slider">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Slider">
+                    <Grid>
+                        <!-- Eje Horizontal -->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Riel del Slider -->
+                        <Track x:Name="PART_Track"
+                           Grid.Column="1"
+                           Focusable="True">
+                            <Track.DecreaseRepeatButton>
+                                <!-- Riel a la izquierda del pulgar -->
+                                <RepeatButton Command="Slider.DecreaseLarge" 
+                                          Style="{x:Null}" 
+                                          Background="#bd7e4d" 
+                                          Height="6" 
+                                          Width="Auto" />
+                            </Track.DecreaseRepeatButton>
+                            <Track.Thumb>
+                                <!-- Pulgar (Thumb) -->
+                                <Thumb x:Name="PART_Thumb"
+                                   Background="#f4a261"
+                                   BorderBrush="#bd7e4d"
+                                   BorderThickness="2"
+                                   Width="20"
+                                   Height="20" />
+                            </Track.Thumb>
+                            <Track.IncreaseRepeatButton>
+                                <!-- Riel a la derecha del pulgar -->
+                                <RepeatButton Command="Slider.IncreaseLarge" 
+                                          Style="{x:Null}" 
+                                          Background="#bd7e4d" 
+                                          Height="6" 
+                                          Width="Auto" />
+                            </Track.IncreaseRepeatButton>
+                        </Track>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+</ResourceDictionary>

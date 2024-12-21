@@ -1,0 +1,43 @@
+﻿<Page x:Class="proyecto_1_evaluacion.Ejercicio5.Ejercicio5_Pregunta2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:proyecto_1_evaluacion.Ejercicio5"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Ejercicio5_Pregunta2">
+
+    <Grid HorizontalAlignment="Center" Width="600" Height="350"  Background="Transparent">
+        <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\pizarra.png"
+Stretch="Fill" 
+HorizontalAlignment="Left" />
+        <Grid>
+            <!-- Imagen de la pregunta -->
+            <Border Style="{StaticResource RoundedImageStyle}" Width="330" Height="300" VerticalAlignment="Center" HorizontalAlignment="Right">
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\ejercicio5_pregunta2.png" 
+               Stretch="Fill" HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Contenedor de respuestas -->
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0">
+                <TextBlock Style="{StaticResource EnunciadoTextStyle}" Text="Choose the"></TextBlock>
+                <TextBlock Style="{StaticResource EnunciadoTextStyle}" Text="correct options:"></TextBlock>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <CheckBox Content="There are trees" Name="CheckBoxTrees" Style="{StaticResource CustomCheckBoxStyle}"/>
+                    <CheckBox Content="There is snow" Name="CheckBoxSnow" Style="{StaticResource CustomCheckBoxStyle}"/>
+                    <CheckBox Content="There is a bear" Name="CheckBoxBear" Style="{StaticResource CustomCheckBoxStyle}"/>
+                    <CheckBox Content="There are birds" Name="CheckBoxBirds" Style="{StaticResource CustomCheckBoxStyle}"/>
+                </StackPanel>
+                <Button Style="{StaticResource ConfirmButtonStyle}" Content="Next question" Margin="0,5" Width="180"
+                Click="ConfirmarRespuesta_Click"/>
+            </StackPanel>
+            <Grid x:Name="gridBloqueo" Background="#80000000" Visibility="Collapsed" MouseDown="GridBloqueo_MouseDown">
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\RespuestaCorrectaCartel.png"
+                    Visibility="Collapsed" Width="200" Name="RespuestaCorrecta"/>
+                <Image Source="C:\Users\javim\source\repos\proyecto_1_evaluacion\proyecto_1_evaluacion\Img\RespuestaFallidaCartel.png"
+                    Visibility="Collapsed" Width="200" Name="RespuestaIncorrecta"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
